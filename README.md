@@ -57,12 +57,6 @@ Before running this project, make sure you have the following installed on your 
      ng serve
      Open http://localhost:4200 in your browser to view the app.
 
-
----
-
-### 5. **Usage**
-
-```md
 ## Usage
 1. **Login/Register**: Users can sign up and log in using their credentials.
 2. **Create a Task**: Navigate to the "Create Task" section, provide task details (title, description, priority, due date), and assign it to a team member.
@@ -71,7 +65,6 @@ Before running this project, make sure you have the following installed on your 
 5. **Notification System**: Users receive notifications when they are assigned tasks or when deadlines approach.
 
 ## Project Structure
-```bash
 ├── api/                # Backend - ASP.NET Core Web API
 │   ├── Controllers/     # API Controllers
 │   ├── Models/          # Entity models for database
