@@ -66,19 +66,19 @@ Before running this project, make sure you have the following installed on your 
    
 #### Project Structure:
     ```bash
-├── api/                # Backend - ASP.NET Core Web API
-│   ├── Controllers/     # API Controllers
-│   ├── Models/          # Entity models for database
-│   ├── Services/        # Business logic
-│   ├── Repositories/    # Data access layer
-│   └── Program.cs       # Application startup
-│
-├── client/              # Frontend - Angular
-│   ├── src/
-│       ├── app/         # Angular components and services
-│       ├── assets/      # Images and static resources
-│       └── styles.css   # Global styles
-└── README.md            # This README file
+    ├── api/                # Backend - ASP.NET Core Web API
+    │   ├── Controllers/     # API Controllers
+    │   ├── Models/          # Entity models for database
+    │   ├── Services/        # Business logic
+    │   ├── Repositories/    # Data access layer
+    │   └── Program.cs       # Application startup
+    │
+    ├── client/              # Frontend - Angular
+    │   ├── src/
+    │       ├── app/         # Angular components and services
+    │       ├── assets/      # Images and static resources
+    │       └── styles.css   # Global styles
+    └── README.md            # This README file
      
 ## API Endpoints
 - **POST /api/auth/login**: User login
