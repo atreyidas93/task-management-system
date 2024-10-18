@@ -63,7 +63,7 @@ Before running this project, make sure you have the following installed on your 
 3. **Track Progress**: View tasks in different states like "To Do", "In Progress", and "Completed".
 4. **Task History**: Track task changes over time, including who updated the task and what changes were made.
 5. **Notification System**: Users receive notifications when they are assigned tasks or when deadlines approach.
-
+   
 ## Project Structure
 ```bash
 ├── api/                # Backend - ASP.NET Core Web API
@@ -87,6 +87,3 @@ Before running this project, make sure you have the following installed on your 
 - **POST /api/tasks**: Create a new task
 - **PUT /api/tasks/{id}**: Update a task
 - **DELETE /api/tasks/{id}**: Delete a task
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
