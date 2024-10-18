@@ -65,7 +65,6 @@ Before running this project, make sure you have the following installed on your 
 5. **Notification System**: Users receive notifications when they are assigned tasks or when deadlines approach.
    
 ## Project Structure
-```bash
 ├── api/                # Backend - ASP.NET Core Web API
 │   ├── Controllers/     # API Controllers
 │   ├── Models/          # Entity models for database
