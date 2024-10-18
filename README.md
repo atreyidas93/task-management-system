@@ -64,7 +64,8 @@ Before running this project, make sure you have the following installed on your 
 4. **Task History**: Track task changes over time, including who updated the task and what changes were made.
 5. **Notification System**: Users receive notifications when they are assigned tasks or when deadlines approach.
    
-## Project Structure
+#### Project Structure:
+    ```bash
 ├── api/                # Backend - ASP.NET Core Web API
 │   ├── Controllers/     # API Controllers
 │   ├── Models/          # Entity models for database
@@ -78,7 +79,7 @@ Before running this project, make sure you have the following installed on your 
 │       ├── assets/      # Images and static resources
 │       └── styles.css   # Global styles
 └── README.md            # This README file
-
+     
 ## API Endpoints
 - **POST /api/auth/login**: User login
 - **POST /api/auth/register**: User registration
@@ -86,3 +87,10 @@ Before running this project, make sure you have the following installed on your 
 - **POST /api/tasks**: Create a new task
 - **PUT /api/tasks/{id}**: Update a task
 - **DELETE /api/tasks/{id}**: Delete a task
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+- GitHub: [atreyidas93](https://github.com/atreyidas93)
+- Email: [atreyi.das1993.com](mailto:atreyi.das1993.com)
