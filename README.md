@@ -64,7 +64,7 @@ Before running this project, make sure you have the following installed on your 
 4. **Task History**: Track task changes over time, including who updated the task and what changes were made.
 5. **Notification System**: Users receive notifications when they are assigned tasks or when deadlines approach.
    
-#### Project Structure:
+## Project Structure:
     ```bash
     ├── api/                # Backend - ASP.NET Core Web API
     │   ├── Controllers/     # API Controllers
