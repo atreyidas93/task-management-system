@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|c:\\dev\\workspace\\gitrepos\\task-management-system\\task-management-backend\\taskmanagementbackend\\taskmanagementbackend\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{913A38EB-9DDD-40A8-9E4F-B010CB0C8D27}|TaskManagementBackend\\TaskManagementBackend.csproj|solutionrelative:taskmanagementbackend\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskManagementBackend\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T10:06:42.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Controllers\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\Controllers\\TaskItemsController.cs",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Controllers\\TaskItemsController.cs*",
+              "RelativeToolTip": "TaskManagementBackend\\Controllers\\TaskItemsController.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:30:01.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\appsettings.json",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\appsettings.json",
+              "RelativeToolTip": "TaskManagementBackend\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-18T08:38:33.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\Program.cs",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Program.cs",
+              "RelativeToolTip": "TaskManagementBackend\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:36:12.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskDbContext.cs",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Data\\TaskDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\Data\\TaskDbContext.cs",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Data\\TaskDbContext.cs",
+              "RelativeToolTip": "TaskManagementBackend\\Data\\TaskDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:31:28.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "TaskManagementBackend\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Dev\\Workspace\\GitRepos\\task-management-system\\task-management-backend\\TaskManagementBackend\\TaskManagementBackend\\Models\\TaskItem.cs",
+              "RelativeToolTip": "TaskManagementBackend\\Models\\TaskItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T08:30:34.029Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
