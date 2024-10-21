@@ -11,11 +11,10 @@ A full-stack task management system designed to streamline task creation, assign
 - 🔔 **Notifications**: Alerts for task deadlines and updates.
 
 ## Tech Stack
-- **Frontend**: Angular 12, Angular Material, TypeScript, HTML5, CSS3
+- **Frontend**: Angular 12, Angular Material, TypeScript, HTML5, CSS3, TailwindCSS
 - **Backend**: .NET 6, ASP.NET Core Web API
 - **Authentication**: JSON Web Token (JWT)
 - **Database**: SQL Server
-- **DevOps**: Docker, Kubernetes (optional for deployment)
 - **Testing**: Jasmine, NUnit
 
 ## Getting Started
