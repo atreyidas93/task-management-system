@@ -25,7 +25,7 @@ Before running this project, make sure you have the following installed on your 
 - [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Node.js](https://nodejs.org/en/)
 - [Angular CLI](https://angular.io/cli)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+- [SQLite](https://sqlitebrowser.org/)
 
 ### Installation Steps
 
