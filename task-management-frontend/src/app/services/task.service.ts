@@ -1,6 +1,6 @@
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { catchError, Observable, throwError } from 'rxjs';
 import { TaskItem } from '../models/task-item';
 
 @Injectable({
@@ -16,17 +16,15 @@ export class TaskService {
 
   constructor(private http: HttpClient) { }
 
-  getTask(sortBy: string = 'Name', isComplete?: boolean, pageNumber: number = 1, pageSize: number = 10): Observable<TaskItem[]> {
+  getTask(sortBy: string = 'Name', pageNumber: number = 1, pageSize: number = 10): Observable<any> {
     let params = new HttpParams()
       .set('sortBy', sortBy)
       .set('pageNumber', pageNumber.toString())
       .set('pageSize', pageSize.toString());
 
-    if (isComplete !== null && isComplete !== undefined) {
-      params = params.set('isComplete', isComplete.toString());
-    }
-
-    return this.http.get<TaskItem[]>(this.apiUrl, { params });
+    return this.http.get<TaskItem[]>(this.apiUrl, { params }).pipe(
+      catchError(this.handleError)
+    );
   }
 
   addTask(task: TaskItem): Observable<any> {
@@ -39,5 +37,15 @@ export class TaskService {
 
   deleteTask(id: number): Observable<any> {
     return this.http.delete(`${this.apiUrl}/${id}`, this.httpOptions);
+  }
+
+  private handleError(error: HttpErrorResponse): Observable<never> {
+    let errorMessage = 'An unknown error occurred';
+    if (error.error instanceof ErrorEvent) {
+      errorMessage = `Client error: ${error.error.message}`;
+    } else {
+      errorMessage = `Server error: ${error.status}, Message: ${error.message}`;
+    }
+    return throwError(() => new Error(error.message || 'Server error'));
   }
 }

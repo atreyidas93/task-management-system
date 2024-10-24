@@ -1,0 +1,50 @@
+<app-task-form (taskCreated)="handleTaskSubmit($event)" [taskSelected]="selectedTask"></app-task-form>
+<div *ngIf="loading" class="flex justify-center items-center h-64">
+    <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-blue-500"></div>
+</div>
+
+<div *ngIf="errorMessage" class="text-red-500 text-center">
+    {{ errorMessage }}
+</div>
+<div *ngIf="!loading && tasks.length === 0 && !errorMessage" class="text-center text-gray-500 mt-4">
+    No tasks found.
+</div>
+<table *ngIf="!loading && tasks.length > 0" class="table-auto w-full border-collapse border border-gray-300 mt-6">
+    <thead>
+        <tr class="bg-gray-200">
+            <th class="border px-4 py-2">Name</th>
+            <th class="border px-4 py-2">Description</th>
+            <th class="border px-4 py-2">Due Date</th>
+            <th class="border px-4 py-2">Complete</th>
+            <th class="border px-4 py-2">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let task of tasks" class="even:bg-gray-100 hover:bg-gray-50">
+            <td class="border px-4 py-2">{{ task.name }}</td>
+            <td class="border px-4 py-2">{{ task.description }}</td>
+            <td class="border px-4 py-2">{{ task.dueDate | date }}</td>
+            <td class="border px-4 py-2 text-center">
+                <span [ngClass]="task.isComplete ? 'text-green-500' : 'text-red-500'">
+                    {{ task.isComplete ? 'Yes' : 'No' }}
+                </span>
+            </td>
+            <td class="border px-4 py-2 d-flex items-center justify-stretch">
+                <button type="button" (click)="editTask(task)"
+                    class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 mr-2 rounded focus:outline-none focus:ring focus:border-green-500">
+                    Edit Task
+                </button>
+                <button type="button" (click)="deleteTask(task)"
+                    class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 ml-2 rounded focus:outline-none focus:ring focus:border-red-500">
+                    Delete Task
+                </button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<app-pagination 
+  [totalItems]="totalItems" 
+  [pageSize]="pageSize"
+  [(currentPage)]="currentPage"
+  (currentPageChange)="nextPage($event)">
+</app-pagination>

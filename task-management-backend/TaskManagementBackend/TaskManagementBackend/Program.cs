@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TaskManagementBackend.Data;
+using TaskManagementBackend.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,12 @@ builder.Services.AddCors(options =>
             .AllowAnyMethod();
     });
 });
+
+builder.Services.AddControllers(options =>
+{
+    options.Filters.Add<ApiFilter>();
+});
+
 
 var app = builder.Build();
 

@@ -22,29 +22,42 @@ namespace TaskManagementBackend.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskItem>>> GetTaskItems(string? sortBy = "Name", bool? isComplete = null, int pageNumber = 1, int pageSize = 10)
+        public async Task<ActionResult> GetTaskItems(string? sortBy = "Name", bool? isComplete = null, int pageNumber = 1, int pageSize = 10)
         {
             var query = _context.TaskItems.AsQueryable();
 
-            // Filtering
             if (isComplete.HasValue)
             {
                 query = query.Where(t => t.IsComplete == isComplete.Value);
             }
 
-            // Sorting
-            query = sortBy switch
+            switch(sortBy)
             {
-                "DueDate" => query.OrderBy(t => t.DueDate),
-                _ => query.OrderBy(t => t.Name)
-            };
+                case "Name":
+                    query.OrderBy(task => task.Name);
+                    break;
+                case "DueDate":
+                    query.OrderBy(task => task.DueDate);
+                    break;
+                default:
+                    query.OrderBy(task => task.Name);
+                    break;
+            }
 
+            var totalItems = await query.CountAsync();
+            var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
             var taskItems = await query
                 .Skip((pageNumber - 1) * pageSize)
                 .Take(pageSize)
                 .ToListAsync();
 
-            return taskItems;
+            return Ok(new
+            {
+                TotalItems = totalItems,
+                TotalPages = totalPages,
+                CurrentPage = pageNumber,
+                Items = taskItems
+            });
         }
 
         // GET: api/TaskItems/5
